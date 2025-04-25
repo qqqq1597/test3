@@ -54,7 +54,9 @@ body {
 }
 
 .photo-card img {
-  width: 100%;
+  width: 100%;               /* 讓圖片寬度填滿容器 */
+  max-width: 300px;          /* 設定圖片最大寬度 */
+  height: auto;              /* 保持圖片的原始比例 */
   border-radius: 8px;
 }
 
