@@ -1,0 +1,94 @@
+:root {
+--main-color: #1F3A93;   /* 墨藍 */
+--accent-color: #BDC3C7; /* 銀灰 */
+--background-color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: url("https://www.transparenttextures.com/patterns/gray-jean.png"); /* 灰色布料紋理背景 */
+  background-color: #f0f0f0;
+  background-repeat: repeat;
+}
+.album-container {
+  background-color: rgba(255, 255, 255, 0.9); /* 半透明白色 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width: 960px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(92, 61, 46, 0.2); /* 使用深棕色做陰影 */
+}
+.intro-text {
+  font-family: "Georgia", serif;  /* 設定字體 */
+  font-size: 22px;  /* 設定字體大小 */
+  color: #555;      /* 設定顏色 */
+  line-height: 1.6;  /* 設定行距 */
+}
+.body-text {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: #888;
+  font-style: italic;
+}
+
+.product-container {
+  text-align: center;
+  font-family: "Microsoft JhengHei", sans-serif;
+  padding: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 40%;  /* 填滿容器 */
+  height: auto; /* 等比例縮放 */
+}
+
+.price {
+  color: #d94d4d;
+  font-weight: bold;
+  margin: 10px 0;
+  display: block;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.footer-counter {
+  text-align: center;
+  margin-top: 20px; /* 加大這裡的距離 */
+  padding-bottom: 100px;
+}
