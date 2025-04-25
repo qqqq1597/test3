@@ -1,9 +1,21 @@
-﻿<!DOCTYPE html>
+﻿<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>手作包包</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cart-header">
+    <a href="https://codepen.io/CHENShon/full/YPPVPYy" class="cart-link">
+      🛒 購物車 <span id="cart-count">0</span>
+  </a>
+</div>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <title>手作包包</title>
-  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,26 +24,40 @@
     <p class="subtitle">有溫度的包</p>
     <div class="album-grid">
       <div class="photo-card">
-        <img src="https://imgur.com/qhEPVZw.jpeg" alt="包包1">
-        <p>復古編織手提包</p>
+        <img src="https://imgur.com/qhEPVZw.jpeg" alt="包1">
+        <p class="product-name">復古編織手提包</p>
+        <p class="product-price">NT$980</p>
+        <button class="add-to-cart-button" data-product-id="1">加入購物車</button>
+        <button class="buy-now-button">立即購買</button>
       </div>
       <div class="photo-card">
-        <img src="https://imgur.com/igGrTDp.jpeg" alt="包包2">
-        <p>斜背包</p>
+        <img src="https://imgur.com/igGrTDp.jpeg" alt="包2">
+        <p class="product-name">斜背包</p>
+        <p class="product-price">NT$880</p>
+        <button class="add-to-cart-button" data-product-id="2">加入購物車</button>
+        <button class="buy-now-button">立即購買</button>
       </div>
       <div class="photo-card">
-        <img src="https://imgur.com/WZx8n69.jpeg" alt="包包3">
-        <p>森林系斜背包</p>
+        <img src="https://imgur.com/WZx8n69.jpeg" alt="包3">
+        <p class="product-name">森林系斜背包</p>
+        <p class="product-price">NT$1050</p>
+        <button class="add-to-cart-button" data-product-id="3">加入購物車</button>
+        <button class="buy-now-button">立即購買</button>
       </div>
       <div class="photo-card">
-        <img src="https://imgur.com/Hnosr5D.jpeg" alt="包包4">
-        <p>男士斜背包</p>
+        <img src="https://imgur.com/Hnosr5D.jpeg" alt="包4">
+        <p class="product-name">男士斜背包</p>
+        <p class="product-price">NT$990</p>
+        <button class="add-to-cart-button" data-product-id="4">加入購物車</button>
+        <button class="buy-now-button">立即購買</button>
       </div>
     </div>
-    <br><br>
+    <br>
     <div class="back-link">
       <a href="index.html">← 返回主頁</a>
     </div>
   </div>
+
+  <script src="cart.js"></script>
 </body>
 </html>
